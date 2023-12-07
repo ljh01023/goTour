@@ -6,13 +6,7 @@ import List from './List';
 import Modal from './Modal';
 
 export default function Mainpage() {
-  let [list, setList] = useState([
-    '1인천 을왕리 해수욕장',
-    '2송도 센트럴파크',
-    '3파주 프로방스 / 헤이리 마을',
-    '4춘천 소양강 스카이워크',
-    '5이천 별빛정원우주',
-  ]);
+  let [list, setList] = useState([]);
 
   let [modal, setModal] = useState(false);
   let [titleNum, setTitleNum] = useState();
@@ -38,10 +32,10 @@ export default function Mainpage() {
   };
   return (
     <main>
-      <div className="inputCon">
+      <div className='inputCon'>
         <input
           value={inputText}
-          placeholder="가고싶은 여행지를 등록하세요"
+          placeholder='가고싶은 여행지를 등록하세요'
           onChange={(e) => {
             setInputText(e.target.value);
           }}
@@ -49,7 +43,7 @@ export default function Mainpage() {
         <button onClick={addItem}>add</button>
       </div>
 
-      <div className="listArea">
+      <div className='listArea'>
         <p>
           <strong>total</strong>
           <span>{list.length}</span>
@@ -58,7 +52,7 @@ export default function Mainpage() {
         {list.length === 0 ? (
           <NoList />
         ) : (
-          <ul className="listCon">
+          <ul className='listCon'>
             {list.map((listItem, i) => {
               return (
                 <List
