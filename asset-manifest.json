@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ljh01023/goTour.git/static/css/main.80959150.css",
-    "main.js": "/ljh01023/goTour.git/static/js/main.cc4f6653.js",
-    "static/js/787.6c8ef39b.chunk.js": "/ljh01023/goTour.git/static/js/787.6c8ef39b.chunk.js",
-    "index.html": "/ljh01023/goTour.git/index.html",
-    "main.80959150.css.map": "/ljh01023/goTour.git/static/css/main.80959150.css.map",
-    "main.cc4f6653.js.map": "/ljh01023/goTour.git/static/js/main.cc4f6653.js.map",
-    "787.6c8ef39b.chunk.js.map": "/ljh01023/goTour.git/static/js/787.6c8ef39b.chunk.js.map"
+    "main.css": "/goTour/static/css/main.80959150.css",
+    "main.js": "/goTour/static/js/main.23a97d11.js",
+    "static/js/787.6c8ef39b.chunk.js": "/goTour/static/js/787.6c8ef39b.chunk.js",
+    "index.html": "/goTour/index.html",
+    "main.80959150.css.map": "/goTour/static/css/main.80959150.css.map",
+    "main.23a97d11.js.map": "/goTour/static/js/main.23a97d11.js.map",
+    "787.6c8ef39b.chunk.js.map": "/goTour/static/js/787.6c8ef39b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80959150.css",
-    "static/js/main.cc4f6653.js"
+    "static/js/main.23a97d11.js"
   ]
 }
